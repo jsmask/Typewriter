@@ -1,13 +1,7 @@
 # Typewriter
 <b>一个轻量级的打字机，根据设定的不同位置可跑脚本，实现js交互。</b>
 <br/>
-<br />
-<h4>使用方法:</h4>
-```html
-<div id="luxy">
-    <div class="luxy-el" data-speed-y="5" data-offset="-50"></div>
-</div>
-```
+## 使用方法:
 ```html
 <p>new Typewriter({  </p>            
 <p>&nbsp;&nbsp;	el: document.getElementById('app'),<span>&nbsp;&nbsp;&nbsp;&nbsp;//输入区对象</span></p>
