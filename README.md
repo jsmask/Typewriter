@@ -3,7 +3,12 @@
 <br/>
 <br />
 <h4>使用方法:</h4>
+```html
+<div id="luxy">
+    <div class="luxy-el" data-speed-y="5" data-offset="-50"></div>
+</div>
 ```
+```html
 <p>new Typewriter({  </p>            
 <p>&nbsp;&nbsp;	el: document.getElementById('app'),<span>&nbsp;&nbsp;&nbsp;&nbsp;//输入区对象</span></p>
 <p>&nbsp;&nbsp;	time: 25   <span>&nbsp;&nbsp;&nbsp;&nbsp;//字符时间间隔</span></p>                        
