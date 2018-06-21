@@ -79,6 +79,7 @@
 				bottom: 200px;
 				left: 0;
 				right: 0;
+				display:none;
 			}
 			
 			.org {
@@ -317,7 +318,7 @@
 					}
 					return events;
 				}
-
+				document.getElementById('app').style.display="block";
 				var tw = new Typewriter({
 					el: document.getElementById('app'),
 					time: 25
