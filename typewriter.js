@@ -15,6 +15,7 @@ var Typewriter = (function() {
 				m = [],
 				s = this.script;
 			d.innerHTML = "";
+			d.style.display="block";
 			m = check(c, "<event");
 			var self = this;
 			this.timer = setInterval(function() {
