@@ -3,10 +3,12 @@
 <br/>
 <br />
 <h4>使用方法:</h4>
+```html
 <p>new Typewriter({  </p>            
 <p>&nbsp;&nbsp;	el: document.getElementById('app'),<span>&nbsp;&nbsp;&nbsp;&nbsp;//输入区对象</span></p>
 <p>&nbsp;&nbsp;	time: 25   <span>&nbsp;&nbsp;&nbsp;&nbsp;//字符时间间隔</span></p>                        
-<p>}, evts);   <span>&nbsp;&nbsp;&nbsp;&nbsp;//evts为自定义脚本</span></p></p>                             
+<p>}, evts);   <span>&nbsp;&nbsp;&nbsp;&nbsp;//evts为自定义脚本</span></p>
+```html
 在文件中根据event标签的位置来执行自定义脚本（顺序执行）。
 <br />
 详见index.html
