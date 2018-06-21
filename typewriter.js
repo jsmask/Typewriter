@@ -26,7 +26,7 @@ var Typewriter = (function() {
 					d.innerHTML = c.substring(0, b) + (b & 1 ? "_" : "&nbsp;");
 				}
 				for(var i = 0; i < m.length; i++) {
-					if(b == m[i]) s[i]();
+					if(b == m[i]) s[i]&&s[i]();
 				}
 				if(b >= c.length) {
 					self.stop();
